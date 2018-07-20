@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.raja{
+    background-color: black;
+ 
+}
+.raja h1{
+    color: white;
+    float: left;
+    line-height: 2cm;
+    text-indent: 20px;
+}
+.raja ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.raja ul li a{
+    text-decoration: none;
+    font-size: 0.5cm;
+    float: right;
+    position: relative;
+    left: 350px;
+    right: 10px;
+    color: white;
+    margin: 30px;
+    
+}
+.raja ul li a:hover{
+    color: green;
+}
+
+.bgcolor{
+    background-color: lavender;
+    width: 80%;
+    height: auto;
+    margin: 10px 0px 10px 100px; 
+    padding-right: 40px;
+
+}
+
+.right{
+    margin: 0px auto;
+    position: absolute;
+    top: 45%;
+    right: 20%;
+}
+
+.right1{
+    margin: 0px auto;
+    position: absolute;
+    top: 115%;
+    right: 20%;
+}
+
+
+.right2{
+    margin: 0px auto;
+    position: absolute;
+    top: 185%;
+    right: 20%;
+}
+
+h3{
+    border: 2px solid black;
+    background-color: white;
+    margin-right: 100px;
+    text-align: center;
+}
+.buy{
+
+    border: 2px solid black;
+    background-color: white;
+    margin-right: 100px;
+    margin-left: 25%;
+    text-align: center;
+}
+.buy:hover{
+    background-color: aqua;
+}
+h3:hover{
+    background-color: aqua;
+}
+.bottom{
+    width: 100%;
+    height: 50px;
+}  
+.bottom p{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    position: absolute;
+    top: 240%;
+    left: 30%;
+}

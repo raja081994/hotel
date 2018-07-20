@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.raja{
+    background-color: black;
+ 
+}
+.raja h1{
+    color: white;
+    float: left;
+    line-height: 2cm;
+    text-indent: 20px;
+}
+.raja ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.raja ul li a{
+    text-decoration: none;
+    font-size: 0.5cm;
+    float: right;
+    position: relative;
+    left: 350px;
+    right: 10px;
+    color: white;
+    margin: 30px;
+    
+}
+.raja ul li a:hover{
+    color: green;
+}
+
+
+
+.bgcolor{
+    background-color: lavender;
+    width: 80%;
+    height: auto;
+    margin: 10px 0px 10px 100px; 
+    padding-right: 40px;
+
+}
+img{
+    width:50%;
+    height: 150vh;
+}
+
+
+.right{
+    margin: 0px auto;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    text-align: justify;
+    width:40%;
+    height: 150vh;
+    margin: 20px;
+}
+h1,h3{
+    font-weight: normal;
+}
+.bottom{
+    width: 100%;
+    height: 50px;
+}  
+.bottom p{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}

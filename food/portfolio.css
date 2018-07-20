@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.raja{
+    background-color: black;
+ 
+}
+.raja h1{
+    color: white;
+    float: left;
+    line-height: 2cm;
+    text-indent: 20px;
+}
+.raja ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.raja ul li a{
+    text-decoration: none;
+    font-size: 0.5cm;
+    float: right;
+    position: relative;
+    left: 350px;
+    right: 10px;
+    color: white;
+    margin: 30px;
+    
+}
+.raja ul li a:hover{
+    color: green;
+}
+
+.row{
+    background-color: aquamarine;
+}
+.column {
+    float: left;
+    width: 31%;
+    padding: 5px;
+    height: 50%;
+    background-color: aquamarine;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
